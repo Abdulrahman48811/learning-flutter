@@ -8,7 +8,6 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final wordPair = WordPair.random();
     return MaterialApp(
         theme: ThemeData(primaryColor: Colors.purple[900]),
         home: RandomWords());
@@ -21,6 +20,7 @@ class RandomWords extends StatefulWidget {
 }
 
 class RandomWordsState extends State<RandomWords> {
+  final _randomWordPairs = <WordPair>[];
   Widget _buildList() {
     return ListView(
       padding: const EdgeInsets.all(8),
