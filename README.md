@@ -12,4 +12,9 @@
 - uses material design
 - STATELESS WIDGETS - immutable state can not be changed during runtime
 - STATEFUL WIDGETS - mutable state can be redrawn multiple times(on screen)
-- 
+
+## App details 
+
+- This is a WordPair Generator app that allows you to like/save different words, from an api, to a different page
+- Here we learn basic futter components 
+- First practice to get a better understanding of flutter and dart
